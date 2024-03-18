@@ -18,7 +18,9 @@ struct ContentView: View {
     @State private var emojiCounters = [
         EmojiCounter(emoji: "😂", count: 0),
         EmojiCounter(emoji: "😉", count: 0),
-        EmojiCounter(emoji: "😆", count: 0)
+        EmojiCounter(emoji: "😆", count: 0),
+        EmojiCounter(emoji: "😘", count: 0),
+        EmojiCounter(emoji: "🤑", count: 0)
     ]
     
     @State private var lastButtonPressTime: Date? = nil
